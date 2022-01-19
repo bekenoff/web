@@ -1,0 +1,58 @@
+
+.header__row {
+    position: relative;
+    display: flex;
+    justify-content: flex-end; /* Выравнивание флекс-элементов с конца */
+}
+
+
+.header__content {
+    position: absolute;
+    /*left: 0;
+    top: 50%;*/
+    width: 1400px;
+    height: 389px;
+    left: 0;
+    top: 182px;
+}
+
+.header__title {
+    margin: 0 0 20px;
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 96px;
+}
+
+.header__text {
+    margin-bottom: 60px;
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+.header__btn {
+
+}
+
+.button {
+    display: inline-block; /* Чтобы ширина была по размеру контента */
+    padding: 12px 33px 13px;
+    background: #F72464;
+    box-shadow: 0 10px 15px rgba(123, 12, 46, 0.35);
+    border-radius: 400px;
+
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 1;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.button:hover{
+    box-shadow: 0 4px 25px rgba(123, 12, 45, 0.671);
+    background-color: #F72464;
+}
